@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   /* Sets the font size to 16px */
   line-height: 2.6;
@@ -23,19 +23,19 @@ body {
 
 h1 {
   font-family: 'Merriweather', sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 30px;
 }
 
 h2 {
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: 700;
   font-family: 'Merriweather', sans-serif;
 }
 
 h3 {
   font-size: 18px;
-  font-weight: 700px;
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -378,7 +378,7 @@ opacity: 0.8;
   	background-color:  #BFC9CA;
   }
 
-  @supports (diplay: grid) {
+  @supports (display: grid) {
     .grid {
       display: -ms-grid;
       display: grid;
@@ -390,7 +390,7 @@ opacity: 0.8;
     }
   }
     .grid__item {
-      background-color: undefined;
+      background-color: white;
       width: auto;
       min-height: auto;
       margin: 0;
